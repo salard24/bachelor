@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table {
+                border-collapse: collapse;
+                font-family: 'Calibri', sans-serif;
+                font-size: 11pt;
+                width: 100%;
+                background-color: white;
+            }
+            th {
+                background-color: #f3f4f6;
+                border: 1px solid #e5e7eb;
+                padding: 12px;
+                font-weight: 600;
+                text-align: left;
+                color: #374151;
+            }
+            th:hover {
+                background-color: #e5e7eb;
+            }
+            td {
+                border: 1px solid #e5e7eb;
+                padding: 12px;
+                color: #4b5563;
+            }
+            tr:nth-child(even) {
+            background-color: #f9fafb;
+            }
+            tr:hover {
+                background-color: #f3f4f6;
+            }
+            .highlighted-cell {
+            background-color: #fef3c7;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Header1   </th>
+                <th>Header2    </th>
+                <th>Header3  </th>
+            </tr>
+            <tr>
+                <td>30.0</td>
+                <td class="highlighted-cell">35.0</td>
+                <td>30.0</td>
+            </tr>        
+            <tr>
+                <td class="highlighted-cell">65.0</td>
+                <td>50.0</td>
+                <td>60.0</td>
+            </tr>
+        </table>
+    </body>
+</html>
