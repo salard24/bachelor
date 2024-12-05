@@ -15,7 +15,7 @@ class SpreadsheetLexer(Lexer):
     CELL_REFERENCE =r'([A-Z])([0-9]+)'
     NUMBER = r'\d+\.?(\d)*'
     FUNCTION_NAME =r'(SUM|AVERAGE|MIN|MAX)'
-    CELL = r'[\' a-zA-Z_][ a-zA-Z0-9%)(_./-=]*'
+    CELL = r'[\' a-zA-Z_][ a-zA-Z0-9%)(_./-=;:+*-]*'
     SEMICOLON = r';'
     LPAREN = r'\('
     RPAREN = r'\)'
